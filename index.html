@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./styles/output.css">
+    <title>Rock Paper Scissors Tutorial</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bg-[url(../img/bg.jpg)]  ">
+    <header class="flex justify-center text-red-400  py-6 text-3xl">Rock<span class="text-white pl-5">Paper</span> <span class="text-yellow-600 pl-5">Scissors</span>
+    </header>
+    <div class="border-8 mt-56 mx-44 p-16 rounded-full  ">
+    <div class="text-white  p-10 text-3xl justify-center">
+        <h2 class="flex justify-center align-middle text-yellow-400 ">Computer Choice  : <span class=" capitalize justify-center " id="computer-choice"></span></h2>
+        <h2 class="flex text-violet-500 justify-center mt-3">Your Choice  : <span class="capitalize" id="user-choice"></span></h2>
+        <h2 class="flex justify-center mt-3 text-sky-500">Result  : <span class="capitalize" id="result"></span></h2>
+    </div>
+    <div class="flex justify-center text-2xl space-x-5 ">
+        <h1 class="text-2xl py-2 text-teal-300">Your Choice:</h1>
+        <button class="rounded-md text-white border-2 border-hidden  bg-blue-500 px-4 p-2 drop-shadow-2xl" id="rock"><i class="fas fa-hand-rock hover:cursor-pointer" id="rock"></i></button>
+        <button class="rounded-md text-white border-2 border-hidden bg-blue-500 px-4 p-2 drop-shadow-2xl" id="paper"><i class="fas fa-hand-paper hover:cursor-pointer " id="paper"></i></button>
+        <button class="rounded-md text-white border-2 border-hidden  bg-blue-500 px-4 p-2 drop-shadow-2xl" id="scissors"><i class="fas fa-hand-scissors hover:cursor-pointer id=" id="scissors"></i></button>
+    </div>
+</div>
+    <script src="./script/app.js" charset="utf-8"></script>
+</body>
+</html>
